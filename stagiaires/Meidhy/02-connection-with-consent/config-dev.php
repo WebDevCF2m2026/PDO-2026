@@ -1,4 +1,5 @@
 <?php
+// stagiaires/Meidhy/02-connection-with-consent/config-dev.php
 # config-dev.php
 # fichier de configuration de PDO en mode Dev.
 # Ce fichier peut être sur github car il contient pas de données sensibles
