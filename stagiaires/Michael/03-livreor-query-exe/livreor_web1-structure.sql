@@ -23,6 +23,6 @@ CREATE TABLE IF NOT EXISTS `message` (
   `texte_message` varchar(800) NOT NULL,
   `date_message` datetime NOT NULL DEFAULT current_timestamp(),
   PRIMARY KEY (`id_message`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 SET FOREIGN_KEY_CHECKS=1;
 COMMIT;
